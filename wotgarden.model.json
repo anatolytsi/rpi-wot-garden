@@ -1,0 +1,134 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "id": "wotgarden",
+  "title": "Garden",
+  "description": "",
+  "security": "basic_sc",
+  "securityDefinitions": {
+    "basic_sc": {
+      "in": "header",
+      "scheme": "basic"
+    }
+  },
+  "properties": {
+    "mode": {
+      "description": "Control mode",
+      "type": "string",
+      "enum": ["autoSummer", "autoWinter", "manual", "test"]
+    },
+    "sprinklerActivated1": {
+      "description": "Check if sprinkler 1 is activated",
+      "type": "boolean"
+    },
+    "sprinklerActivated2": {
+      "description": "Check if sprinkler 2 is activated",
+      "type": "boolean"
+    },
+    "sprinklerActivated3": {
+      "description": "Check if sprinkler 3 is activated",
+      "type": "boolean"
+    },
+    "sprinklerActivated4": {
+      "description": "Check if sprinkler 4 is activated",
+      "type": "boolean"
+    },
+    "sprinklerActivated5": {
+      "description": "Check if sprinkler 5 is activated",
+      "type": "boolean"
+    },
+    "sprinklerActivated6": {
+      "description": "Check if sprinkler 6 is activated",
+      "type": "boolean"
+    },
+    "sprinklerActivated7": {
+      "description": "Check if sprinkler 7 is activated",
+      "type": "boolean"
+    },
+    "sprinklerActivated8": {
+      "description": "Check if sprinkler 8 is activated",
+      "type": "boolean"
+    },
+    "sprinklerWorking1": {
+      "description": "Check if sprinkler 1 is working",
+      "type": "boolean"
+    },
+    "sprinklerWorking2": {
+      "description": "Check if sprinkler 2 is working",
+      "type": "boolean"
+    },
+    "sprinklerWorking3": {
+      "description": "Check if sprinkler 3 is working",
+      "type": "boolean"
+    },
+    "sprinklerWorking4": {
+      "description": "Check if sprinkler 4 is working",
+      "type": "boolean"
+    },
+    "sprinklerWorking5": {
+      "description": "Check if sprinkler 5 is working",
+      "type": "boolean"
+    },
+    "sprinklerWorking6": {
+      "description": "Check if sprinkler 6 is working",
+      "type": "boolean"
+    },
+    "sprinklerWorking7": {
+      "description": "Check if sprinkler 7 is working",
+      "type": "boolean"
+    },
+    "sprinklerWorking8": {
+      "description": "Check if sprinkler 8 is working",
+      "type": "boolean"
+    }
+  },
+  "actions": {
+    "startSprinkler1": {
+      "description": "Start sprinkler 1"
+    },
+    "startSprinkler2": {
+      "description": "Start sprinkler 2"
+    },
+    "startSprinkler3": {
+      "description": "Start sprinkler 3"
+    },
+    "startSprinkler4": {
+      "description": "Start sprinkler 4"
+    },
+    "startSprinkler5": {
+      "description": "Start sprinkler 5"
+    },
+    "startSprinkler6": {
+      "description": "Start sprinkler 6"
+    },
+    "startSprinkler7": {
+      "description": "Start sprinkler 7"
+    },
+    "startSprinkler8": {
+      "description": "Start sprinkler 8"
+    },
+    "stopSprinkler1": {
+      "description": "Stop sprinkler 1"
+    },
+    "stopSprinkler2": {
+      "description": "Stop sprinkler 2"
+    },
+    "stopSprinkler3": {
+      "description": "Stop sprinkler 3"
+    },
+    "stopSprinkler4": {
+      "description": "Stop sprinkler 4"
+    },
+    "stopSprinkler5": {
+      "description": "Stop sprinkler 5"
+    },
+    "stopSprinkler6": {
+      "description": "Stop sprinkler 6"
+    },
+    "stopSprinkler7": {
+      "description": "Stop sprinkler 7"
+    },
+    "stopSprinkler8": {
+      "description": "Stop sprinkler 8"
+    }
+  }
+}

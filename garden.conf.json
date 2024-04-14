@@ -1,0 +1,41 @@
+{
+  "i2cNum": 1,
+  "sprinklers": {
+    "type": "mcp23017",
+    "address": "20",
+    "modeA": "INPUT_PULLUP",
+    "modeB": "OUTPUT",
+    "sprinkler1": {
+      "onOffPin": 8,
+      "activated": true
+    },
+    "sprinkler2": {
+      "onOffPin": 9,
+      "activated": true
+    },
+    "sprinkler3": {
+      "onOffPin": 10,
+      "activated": true
+    },
+    "sprinkler4": {
+      "onOffPin": 11,
+      "activated": true
+    },
+    "sprinkler5": {
+      "onOffPin": 12,
+      "activated": true
+    },
+    "sprinkler6": {
+      "onOffPin": 13,
+      "activated": true
+    },
+    "sprinkler7": {
+      "onOffPin": 14,
+      "activated": true
+    },
+    "sprinkler8": {
+      "onOffPin": 15,
+      "activated": true
+    }
+  }
+}
